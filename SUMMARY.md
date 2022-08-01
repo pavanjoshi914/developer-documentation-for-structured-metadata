@@ -2,18 +2,18 @@
 
 ## Introduction
 
-* [Making Payment Transactions Smart With Structured Metadata⚡](README.md)
-* [What is WebLN? 🤔](introduction/what-is-webln.md)
-* [Sending Payments Via WebLN Along With Metadata🧾](introduction/sending-payments-via-webln-along-with-metadata.md)
+* [⚡Making Payment Transactions Smart With Structured Metadata](README.md)
+* [🤔What is WebLN?](introduction/what-is-webln.md)
+* [🧾Extending SendPayment Method](introduction/extending-sendpayment-method.md)
 
 ## Working/Architecture Of Spec
 
-* [Introduction⚙️](working-architecture-of-spec/introduction.md)
-* [Make a Request to Wallet for WebLN Provider Via Triggering SendPayment()](working-architecture-of-spec/make-a-request-to-wallet-for-webln-provider-via-triggering-sendpayment.md)
-* [Structure Metadata and pass it to the wallet in Callback](working-architecture-of-spec/structure-metadata-and-pass-it-to-the-wallet-in-callback.md)
-* [Validate Metadata(Wallets)](working-architecture-of-spec/validate-metadata-wallets.md)
-* [Render Metadata in Confirmation Dialogue (If Valid) 🚦](working-architecture-of-spec/render-metadata-in-confirmation-dialogue-if-valid.md)
-* [Store, Interact and do after actions with Metadata 💾](working-architecture-of-spec/store-interact-and-do-after-actions-with-metadata.md)
+* [⚙️Introduction](working-architecture-of-spec/intro.md)
+* [1️⃣Trigger SendPayment method](working-architecture-of-spec/1-trigger-sendpayment-method.md)
+* [Structure and Pass Metadata](working-architecture-of-spec/structure-and-pass-metadata.md)
+* [Validate Metadata](working-architecture-of-spec/validate-metadata.md)
+* [Render Metadata in Confirmation Dialogue](working-architecture-of-spec/render-metadata-in-confirmation-dialogue.md)
+* [Store, Interact and Do After Actions](working-architecture-of-spec/store-interact-and-do-after-actions.md)
 
 ## Group 2
 
