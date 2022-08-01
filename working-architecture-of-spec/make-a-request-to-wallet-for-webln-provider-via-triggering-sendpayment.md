@@ -1,4 +1,4 @@
-# ☎ Trigger SendPayment method
+# Make a Request to Wallet for WebLN Provider Via Triggering SendPayment()
 
 
 

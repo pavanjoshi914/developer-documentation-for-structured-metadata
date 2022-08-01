@@ -1,4 +1,4 @@
-# 🚦 Validate Metadata
+# Validate Metadata(Wallets)
 
 
 

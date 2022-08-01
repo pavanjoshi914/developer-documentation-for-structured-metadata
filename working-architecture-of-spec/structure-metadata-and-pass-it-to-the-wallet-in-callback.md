@@ -1,6 +1,8 @@
-# 🧱 󠁻󠁻Structure and Pass Metadata
+# Structure Metadata and pass it to the wallet in Callback
 
 
+
+****
 
 Use [**Schema.org**](http://schema.org) specifications to structure metadata in form of **JSON-LD.**
 
