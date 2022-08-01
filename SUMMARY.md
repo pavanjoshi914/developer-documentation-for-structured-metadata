@@ -8,7 +8,7 @@
 
 ## Working/Architecture Of Spec
 
-* [Intro ⚙️](working-architecture-of-spec/intro.md)
+* [Introduction⚙️](working-architecture-of-spec/introduction.md)
 * [Make a Request to Wallet for WebLN Provider Via Triggering SendPayment()](working-architecture-of-spec/make-a-request-to-wallet-for-webln-provider-via-triggering-sendpayment.md)
 * [Structure Metadata and pass it to the wallet in Callback](working-architecture-of-spec/structure-metadata-and-pass-it-to-the-wallet-in-callback.md)
 * [Validate Metadata(Wallets)](working-architecture-of-spec/validate-metadata-wallets.md)
