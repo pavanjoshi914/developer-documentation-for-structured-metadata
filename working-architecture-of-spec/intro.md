@@ -2,7 +2,7 @@
 description: Describes architecture of the spec
 ---
 
-# ⚙️Introduction
+# ⚙ Introduction
 
 
 

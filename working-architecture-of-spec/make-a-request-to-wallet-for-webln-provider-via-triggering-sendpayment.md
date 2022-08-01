@@ -1,4 +1,4 @@
-# ☎️Trigger SendPayment method
+# ☎ Trigger SendPayment method
 
 
 
