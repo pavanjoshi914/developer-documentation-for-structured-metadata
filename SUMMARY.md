@@ -9,11 +9,11 @@
 ## Working/Architecture Of Spec
 
 * [⚙️Introduction](working-architecture-of-spec/intro.md)
-* [1️⃣Trigger SendPayment method](working-architecture-of-spec/1-trigger-sendpayment-method.md)
-* [Structure and Pass Metadata](working-architecture-of-spec/structure-and-pass-metadata.md)
-* [Validate Metadata](working-architecture-of-spec/validate-metadata.md)
-* [Render Metadata in Confirmation Dialogue](working-architecture-of-spec/render-metadata-in-confirmation-dialogue.md)
-* [Store, Interact and Do After Actions](working-architecture-of-spec/store-interact-and-do-after-actions.md)
+* [☎️Trigger SendPayment method](working-architecture-of-spec/trigger-sendpayment-method.md)
+* [󠁻󠁻🧱Structure and Pass Metadata](working-architecture-of-spec/structure-and-pass-metadata.md)
+* [🚦Validate Metadata](working-architecture-of-spec/validate-metadata.md)
+* [🖼️Render Metadata in Confirmation Dialogue](working-architecture-of-spec/render-metadata-in-confirmation-dialogue.md)
+* [💽Store, Interact and Do After Actions](working-architecture-of-spec/store-interact-and-do-after-actions.md)
 
 ## Group 2
 

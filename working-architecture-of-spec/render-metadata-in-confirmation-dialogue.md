@@ -1,4 +1,4 @@
-# Render Metadata in Confirmation Dialogue (If Valid) 🚦
+# 🖼️Render Metadata in Confirmation Dialogue
 
 
 

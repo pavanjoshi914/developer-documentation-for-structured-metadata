@@ -58,8 +58,8 @@ webln.sendPayment(Invoice, Metadata)
 
 Follow our comprehensive guide to know more about each step and their implementation details
 
-{% content-ref url="1-trigger-sendpayment-method.md" %}
-[1-trigger-sendpayment-method.md](1-trigger-sendpayment-method.md)
+{% content-ref url="trigger-sendpayment-method.md" %}
+[trigger-sendpayment-method.md](trigger-sendpayment-method.md)
 {% endcontent-ref %}
 
 {% content-ref url="structure-and-pass-metadata.md" %}

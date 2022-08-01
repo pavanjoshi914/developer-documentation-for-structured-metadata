@@ -1,4 +1,4 @@
-# Sending Payments Via WebLN Along With Metadata🧾
+# 🧾Extending SendPayment Method
 
 WebLN _**SendPayment**_ which takes _**paymentRequest**_ parameter holding Bolt11 invoice, we can extend this function to add an extra “optional” parameter named _**metadata**_ which will hold metadata as a string which can be passed to the Wallets.
 
