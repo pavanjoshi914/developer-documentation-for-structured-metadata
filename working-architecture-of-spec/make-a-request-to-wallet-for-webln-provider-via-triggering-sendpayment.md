@@ -1,5 +1,16 @@
-# Make a Request to Wallet for WebLN Provider Via Triggering SendPayment()
+# ☎ Trigger SendPayment Method
 
+Bitcoin Lightning-driven web application using the WebLN standard can request for WebLN provider by triggering `SendPayment` method.
 
+\
+Provider passed by the wallet to the client shall contain an extended definition of the `SendPayment` method.
 
-`sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentResponse>;`
+```
+sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentResponse>;
+```
+
+### WebLN Provider by Alby&#x20;
+
+Alby uses an extended version of the WebLN provider which when triggered provides `SendPayment` method containing optional parameter `metadata`
+
+![WebLN Provider by Alby](../.gitbook/assets/image.png)

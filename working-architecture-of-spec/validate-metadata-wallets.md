@@ -1,12 +1,8 @@
-# Validate Metadata(Wallets)
-
-
-
-****
+# 🚦 Validate Metadata
 
 Metadata is user-generated, such type of metadata should be cross-checked for its correctness and before performing any further action we have to do validation of metadata.
 
-_What is JSON Schema?_ 🧐
+### _What is JSON Schema?_ 🧐
 
 JSON Schema is **a JSON media type for defining the structure of JSON data**. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it.
 
@@ -18,7 +14,7 @@ Schemas can be created to validate received data against a predefined data model
 
 [_**Zod**_](https://www.npmjs.com/package/zod) plugin can be used to validate JSON schemas as well as Object schemas. The best thing about this plugin is that it has zero external dependencies involved.
 
-**Validator function which validates schemas using zod plugin**
+**Validator function which validates metadata against schemas generated using Zod plugin**
 
 * Schema Created using Zod plugin
 
@@ -33,7 +29,7 @@ Schemas can be created to validate received data against a predefined data model
  });
 ```
 
-* Validator function to validate metadata
+* Custom and Reusable Validator function to validate metadata
 
 ```
  import { audioObjectSchema } from "./audioObjectSchema";
