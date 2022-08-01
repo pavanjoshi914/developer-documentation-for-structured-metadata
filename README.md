@@ -5,7 +5,7 @@ description: >-
   information (metadata).
 ---
 
-# Making Payment Transactions Smart With Structured Metadata⚡
+# ⚡ Making Payment Transactions Smart With Structured Metadata
 
 
 

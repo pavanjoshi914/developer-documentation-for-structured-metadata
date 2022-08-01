@@ -58,22 +58,22 @@ webln.sendPayment(Invoice, Metadata)
 
 Follow our comprehensive guide to know more about each step and their implementation details
 
-{% content-ref url="trigger-sendpayment-method.md" %}
-[trigger-sendpayment-method.md](trigger-sendpayment-method.md)
+{% content-ref url="make-a-request-to-wallet-for-webln-provider-via-triggering-sendpayment.md" %}
+[make-a-request-to-wallet-for-webln-provider-via-triggering-sendpayment.md](make-a-request-to-wallet-for-webln-provider-via-triggering-sendpayment.md)
 {% endcontent-ref %}
 
-{% content-ref url="structure-and-pass-metadata.md" %}
-[structure-and-pass-metadata.md](structure-and-pass-metadata.md)
+{% content-ref url="structure-metadata-and-pass-it-to-the-wallet-in-callback.md" %}
+[structure-metadata-and-pass-it-to-the-wallet-in-callback.md](structure-metadata-and-pass-it-to-the-wallet-in-callback.md)
 {% endcontent-ref %}
 
-{% content-ref url="validate-metadata.md" %}
-[validate-metadata.md](validate-metadata.md)
+{% content-ref url="validate-metadata-wallets.md" %}
+[validate-metadata-wallets.md](validate-metadata-wallets.md)
 {% endcontent-ref %}
 
-{% content-ref url="render-metadata-in-confirmation-dialogue.md" %}
-[render-metadata-in-confirmation-dialogue.md](render-metadata-in-confirmation-dialogue.md)
+{% content-ref url="render-metadata-in-confirmation-dialogue-if-valid.md" %}
+[render-metadata-in-confirmation-dialogue-if-valid.md](render-metadata-in-confirmation-dialogue-if-valid.md)
 {% endcontent-ref %}
 
-{% content-ref url="store-interact-and-do-after-actions.md" %}
-[store-interact-and-do-after-actions.md](store-interact-and-do-after-actions.md)
+{% content-ref url="store-interact-and-do-after-actions-with-metadata.md" %}
+[store-interact-and-do-after-actions-with-metadata.md](store-interact-and-do-after-actions-with-metadata.md)
 {% endcontent-ref %}
