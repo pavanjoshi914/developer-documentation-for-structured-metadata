@@ -22,6 +22,7 @@
 
 ## Data Models
 
-* [Supported Schema Types and Attributes](data-models/supported-schema-types-and-attributes/README.md)
-  * [AudioObject](data-models/supported-schema-types-and-attributes/audioobject.md)
+* [Data Model Overview](data-models/data-model-overview.md)
+* [Type Reference](data-models/type-reference/README.md)
+  * [AudioObject](data-models/type-reference/audioobject.md)
 * [Structure Metadata Using Data Models](data-models/structure-metadata-using-data-models.md)
