@@ -10,8 +10,8 @@ Each data model has its own type along with the various supported attributes whi
 
 Use our data models of the suitable type to structure metadata in form of **JSON :**
 
-{% content-ref url="../data-models/type-reference/" %}
-[type-reference](../data-models/type-reference/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 eg.
