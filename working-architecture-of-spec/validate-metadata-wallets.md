@@ -1,6 +1,6 @@
 # 🚦 Validate Metadata
 
-Metadata is user-generated, such type of metadata should be cross-checked for its correctness and before performing any further action we have to do validation of metadata.
+Metadata is user-generated, such type of metadata should be cross-checked for its correctness and before performing any further action wallets have to do validation of metadata.
 
 ### _What is JSON Schema?_ 🧐
 

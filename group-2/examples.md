@@ -1,4 +1,4 @@
-# Examples
+# 🛕 Examples
 
 To demonstrate concept more clearly, I decided to create a simple prototype through which a visitor can play a song if they like they can buy a song. While buying a song during confirmation payment they get to know about the song name, artist, and song image(send as base64 encoded string, decode on Alby side).
 

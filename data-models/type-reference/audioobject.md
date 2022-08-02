@@ -1,17 +1,17 @@
-# AudioObject
+# 🎙 AudioObject
 
 ## AudioObject
 
 This type is derived from [https://schema.org/AudioObject](https://schema.org/AudioObject), which means that any of this type's properties within schema.org may also be used. Note however the properties on this page must be used in preference if a relevant property is available.
 
-### **Properties**
+## **Properties**
 
-#### **Required properties**
+### **Required properties**
 
-| Property  | Expected Type                     | Description                                                                                                                       |
-| --------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| **@type** | [`Text`](https://schema.org/Text) | Must always be present and set to `"@type": "AudioObject"`                                                                        |
-| **url**   | [`URL`](https://schema.org/URL)   | <p>The URL for the audio.</p><p><br><strong>Example</strong></p><p><code>"url": "https://soundcloud.com/stayin/getfit"</code></p> |
+| Property | Expected Type                     | Description                                                                                                                                                   |
+| -------- | --------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **type** | [`Text`](https://schema.org/Text) | <p>Must always be present and set to: <code>AudioObject</code></p><p><br><strong>Example</strong><br><code>"type": "AudioObject"</code></p>                   |
+| **url**  | [`URL`](https://schema.org/URL)   | <p>The URL for the audio.</p><p><br><strong>Example</strong></p><p><code>"url": "https://soundcloud.com/joshy-lift12/alan-walker-vs-coldplay-hymm"</code></p> |
 
 #### **Optional properties**
 
