@@ -15,17 +15,16 @@ Once the payment is successful, we can allow the user to access his purchased co
 This can be done in the SendPayment callback function as follows:
 
 ```
- webln.sendPayment(Bolt 11 invoice, Metadata)
-          .then(function(r) {
-            // Required constraint to protect Metadata, as a rule when empty 
-            invoices are paid
-            if(r != undefined){
-              // Provide Metadata after successful Payment
-              // eg. Allow user to download a song after payment is successful
-            }
-          })
-          .catch(function(e) {
-            alert("Failed: " + e.message);
-            console.log('err pay:', e);
-          });    
+webln.sendPayment(invoice, metadata)
+  .then(function (r) {
+    // Required constraint to protect Metadata, as a rule when empty invoices are paid
+    if (r != undefined) {
+      // Provide Metadata after successful Payment
+      // eg. Allow user to download a song after payment is successful
+    }
+  })
+  .catch(function (e) {
+    alert("Failed: " + e.message);
+    console.log('err pay:', e);
+   });
 ```

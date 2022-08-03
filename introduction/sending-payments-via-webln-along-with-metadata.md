@@ -10,11 +10,11 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
 
 **WebLN Provider attached by wallets before**
 
-![WebLN provider attachted by wallets before](<../.gitbook/assets/image (2).png>)
+![WebLN provider attachted by wallets before](<../.gitbook/assets/image (4).png>)
 
 **WebLN Provider attached by wallets after implementation of this spec**
 
-![WebLN provider attached by wallets after ](<../.gitbook/assets/image (1).png>)
+![WebLN provider attached by wallets after ](../.gitbook/assets/image.png)
 
 ### Passing Metadata Via SendPayment Method
 

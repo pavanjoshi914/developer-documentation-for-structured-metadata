@@ -17,14 +17,13 @@ Use our data models of the suitable type to structure metadata in form of **JSON
 eg.
 
 ```
-var Metadata = {};
-Metadata = {
+let metadata: {};
+metadata = {
  "type": "AudioObject",
  "name": "title",
  "creator": "artist",
  "image": "image" 
  }
- export var Metadata;
 ```
 
 To learn more about how to structure metadata for Bitcoin Transactions -

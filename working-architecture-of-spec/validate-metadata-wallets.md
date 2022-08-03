@@ -32,38 +32,39 @@ Schemas can be created to validate received data against a predefined data model
 * Custom and Reusable Validator function to validate metadata
 
 ```
- import { audioObjectSchema } from "./audioObjectSchema";
+import { audioObjectSchema } from "./audioObjectSchema";
 
- export function isBase64(str: string) {
-   if (str === "" || str.trim() === "") {
-     return false;
-   }
-   try {
-     return btoa(atob(str)) == str;
-   } catch (err) {
-     return false;
-   }
- }
+export function isBase64(str: string) {
+  if (str === "" || str.trim() === "") {
+    return false;
+  }
+  try {
+    return btoa(atob(str)) == str;
+  } catch (err) {
+    return false;
+  }
+}
 
- export function MetadataValidator(metadata: { [key: string]: string }) {
-   let hasValidType = false;
-   let hasValidImage = true;
-   for (const key in metadata) {
-     if (key == "type") {
-       if (metadata[key] == "AudioObject") {
-         const parsed = audioObjectSchema.safeParse(metadata);
-         if (parsed.success) {
-           hasValidType = true;
-         }
-       }
-     }
-     if (key == "image") {
-       hasValidImage = isBase64(metadata[key]);
-     }
-   }
+export function MetadataValidator(metadata: object) {
+  let hasValidType: boolean = false;
+  let hasValidImage: boolean = true;
+  for (const [key, value] of Object.entries(metadata)) {
+    if (key == "type") {
+      if (value == "AudioObject") {
+        const parsed = audioObjectSchema.safeParse(metadata);
+        if (parsed.success) {
+          hasValidType = true;
+        }
+      }
+    }
+    if (key == "image") {
+      hasValidImage = isBase64(value);
+    }
+  }
 
- return hasValidType && hasValidImage;
- }
+  return hasValidType && hasValidImage;
+}
+
 ```
 
 * To Validate Metadata Just call the function by passing metadata.

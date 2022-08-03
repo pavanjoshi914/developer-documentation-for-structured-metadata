@@ -27,15 +27,14 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
   Before passing metadata, metadata needs to be structured following the data models provided in a comprehensive guide
 
 ```
-webln.sendPayment(Invoice, Metadata)
-          .then(function(r) {
-            // Required constraint to protect Metadata, as a rule when empty 
-            invoices are paid
-            if(r != undefined){
-              // Provide Metadata after successful Payment
-              // eg. Allow user to download a song after payment is successful
-            }
-          })
+webln.sendPayment(invoice, metadata)
+  .then(function (r) {
+    // Required constraint to protect Metadata, as a rule when empty invoices are paid
+    if (r != undefined) {
+      // Provide Metadata after successful Payment
+      // eg. Allow user to download a song after payment is successful
+    }
+  })
 ```
 
 * Validate Metadata\
