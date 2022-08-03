@@ -1,8 +1,8 @@
 ---
 description: >-
   Bitcoin transactions hold only static data which doesn’t include much more
-  relevant information to look into. what if transactions can have additional
-  information (metadata).
+  relevant information to look into. What if transactions can have additional
+  information (metadata)?
 ---
 
 # ⚡ Making Payment Transactions Smart With Structured Metadata
@@ -11,24 +11,24 @@ description: >-
 
 ![Making Payments Transactions Smart With Structured Metadata](https://user-images.githubusercontent.com/55848322/177914181-886c6415-8b20-4dde-904b-7b027b744201.png)
 
-> A New Future of Bitcoin Transactions Resulting into Numerous Usecases💰
+> A new future of Bitcoin transactions resulting into numerous usecases💰
 
 
 
-Specifications such as WebLN bought better solutions to the UX for lightning networks and enhanced applications of Bitcoin.
+Many different specifications such as WebLN bought a better solution to the UX of lightning network and enhanced applications of Bitcoin.
 
 💻 On top of this, many broad applications such as  —
 
 * Instant payments via a web browser using Bitcoin Sats (eg. Alby)
 * Tippings for content writers, podcasts and streamers
-* Sat’s streaming
+* Streaming sats
 * Instant purchases on the Web and many more came into working…
 
 Transaction lists as we know them from our private bank accounts are often a simple list of transactions sorted by date. Each transaction has data like Sender, Receiver, amount, reason and date.
 
 🌟Similarly, Bitcoin transactions hold only static data which doesn’t include much more relevant information to look into. what if transactions can have additional information(metadata) such as  --
 
-* Purpose of Transaction
+* Purpose of transaction
 * What was bought with that particular transaction
 * Accessing bought right out of the wallet
 * Allow users to interact with transactions depending on the additional information each transaction will hold

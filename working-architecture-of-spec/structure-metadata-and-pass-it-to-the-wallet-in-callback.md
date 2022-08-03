@@ -8,7 +8,7 @@ This specification uses data models derived from standards such as [schema.org](
 
 Each data model has its own type along with the various supported attributes which can be used to structure metadata such as  _**AudioObject, ImageObject, VideoObject etc**_
 
-Use our data models of the suitable type to structure metadata in form of **JSON :**
+Use our data models of the suitable type to structure metadata in form of **JSON:**
 
 {% content-ref url="../data-models/data-model-overview.md" %}
 [data-model-overview.md](../data-models/data-model-overview.md)
@@ -40,6 +40,6 @@ The Client passes the Invoice along with metadata via `SendPayment` method, whic
 Before passing metadata, metadata needs to be structured following the data models provided in a comprehensive guide
 
 ```
-webln.sendPayment(Invoice, Metadata);
+webln.sendPayment(invoice, metadata);
 ```
 

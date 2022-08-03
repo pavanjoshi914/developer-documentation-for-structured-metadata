@@ -13,4 +13,4 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
 
 Alby uses an extended version of the WebLN provider which when triggered provides `SendPayment` method containing optional parameter `metadata`
 
-![WebLN Provider by Alby](../.gitbook/assets/image.png)
+![WebLN provider attached by wallets after the implementation of this spec](../.gitbook/assets/image.png)

@@ -6,7 +6,7 @@ description: Describes architecture of the spec
 
 This page describes the basic workflow of the current spec broken down into 5 basic steps for different wallets trying to implement this spec
 
-![](https://cdn-images-1.medium.com/max/3694/1\*Lz4JHjDty-jrWAV9eqcDPA.png)
+![Spec Architecture](https://cdn-images-1.medium.com/max/3694/1\*Lz4JHjDty-jrWAV9eqcDPA.png)
 
 ### Workflow
 
@@ -44,9 +44,9 @@ webln.sendPayment(Invoice, Metadata)
 
 * Render Metadata in Confirmation Dialogue\
   \
-  If metadata is passed and is valid, it is rendered in confirmation dialogue along with payment  details ✅\
+  ✅ If metadata is passed and is valid, it is rendered in confirmation dialogue along with payment details.\
   \
-  If metadata is passed and is not valid, even if the invoice is valid, it might be a case of fraud, we don't allow to proceed further ❌\
+  &#x20;❌ If metadata is passed and is not valid, even if the invoice is valid, it might be a case of fraud, we don't allow it to proceed further.\
 
 * Store, Interact and Do After Actions\
   \

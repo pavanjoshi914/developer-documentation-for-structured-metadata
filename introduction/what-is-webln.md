@@ -34,4 +34,4 @@ Then, use the APIs
 
 #### Know More About WebLN
 
-Know more about WebLN and how you can use it in your codebase - [Click Here](https://www.webln.guide/introduction/readme)
+[Know more about WebLN](https://www.webln.guide/introduction/readme) and how you can use it in your codebase.

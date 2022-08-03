@@ -12,11 +12,11 @@ Schemas can be created to validate received data against a predefined data model
 * Compile Schema
 * Validate received data for that particular schema
 
-[_**Zod**_](https://www.npmjs.com/package/zod) plugin can be used to validate JSON schemas as well as Object schemas. The best thing about this plugin is that it has zero external dependencies involved.
+[_**Zod**_](https://www.npmjs.com/package/zod) NPM package can be used to validate JSON schemas as well as Object schemas. The best thing about this package is that it has zero external dependencies involved.
 
-**Validator function which validates metadata against schemas generated using Zod plugin**
+**Validator function which validates metadata against schemas generated using Zod NPM package**
 
-* Schema Created using Zod plugin
+* Schema Created using Zod NPM package
 
 ```
  import { z } from "zod";
