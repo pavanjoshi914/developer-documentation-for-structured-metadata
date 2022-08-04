@@ -1,8 +1,12 @@
+---
+description: Introduction to lightning web standard (WebLN)
+---
+
 # 🤔 What is WebLN?
 
 Lightning Web Standard (WebLN)⚡is a specification used to build a Bitcoin Lightning-driven web application.
 
-WebLN is a set of specifications for Lightning apps and client providers to facilitate communication between web apps and users’ lightning nodes in a secure way. It provides a programmatic, permissioned interface for letting applications ask users to send payments, generates invoices to receive payments, and much more.\
+WebLN is a set of specifications for Lightning apps and client providers to facilitate communication between web apps and users’ lightning nodes in a secure way. It provides a programmatic, permission-oriented interface for letting applications ask users to send payments, generates invoices to receive payments, and much more.\
 \
 
 
@@ -32,4 +36,4 @@ Then, use the APIs
 
 #### Know More About WebLN
 
-[Know more about WebLN](https://www.webln.guide/introduction/readme) and how you can use it in your codebase.
+To [Know more about WebLN](https://www.webln.guide/introduction/readme) and how users can use it in your codebase.

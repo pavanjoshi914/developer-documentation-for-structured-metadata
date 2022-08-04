@@ -1,6 +1,10 @@
+---
+description: Extending sendPayment method to add optional metadata field
+---
+
 # 📑 Extending SendPayment Method
 
-WebLN _**SendPayment**_ which takes _**paymentRequest**_ parameter holding[ Bolt11 invoice](https://github.com/lightning/bolts/blob/master/11-payment-encoding.md), we can extend this function to add an extra “optional” parameter named _**metadata**_ which will hold metadata as a string which can be passed to the Wallets.
+WebLN `SendPayment` which takes `paymentRequest` parameter holding the[ Bolt11 Invoice](https://github.com/lightning/bolts/blob/master/11-payment-encoding.md), we can extend this function to add an extra “optional” parameter named `metadata` which will store metadata as a string and is passed further to the Wallets.
 
 _**Function Signature:**_
 
@@ -18,7 +22,7 @@ sendPayment(paymentRequest: string, metadata?: string): Promise<SendPaymentRespo
 
 ### Passing Metadata Via SendPayment Method
 
-As an extended version of the `SendPayment` method is implemented by the wallet and is sent to the WebLN-enabled client. Clients can now pass metadata along with Invoice using such function.
+Now the extended version of the `SendPayment` method implemented by the wallet is sent to the WebLN-enabled client. Now clients can pass metadata along with Invoice using such function.
 
 \
 _Example:_
@@ -26,10 +30,10 @@ _Example:_
 ```
 webln.sendPayment(invoice, metadata)
   .then(function (r) {
-    // Required constraint to protect Metadata, as a rule when empty invoices are paid
+    // Required constraint to protect metadata as a rule while paying empty invoices
     if (r != undefined) {
-      // Provide Metadata after successful Payment
-      // eg. Allow user to download a song after payment is successful
+      // Provide metadata after successful payment
+      // Eg. Allow users to download a song after payment is successful
     }
   })
 ```

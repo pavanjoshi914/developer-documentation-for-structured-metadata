@@ -1,6 +1,6 @@
 # 🚦 Validate Metadata
 
-Metadata is user-generated, such type of metadata should be cross-checked for its correctness and before performing any further action wallets have to do validation of metadata.
+Metadata is user-generated, such user-generated data shall be cross-checked for its correctness. Before performing any further action wallets have to validate metadata.
 
 ### _What is JSON Schema?_ 🧐
 
@@ -14,7 +14,7 @@ Schemas can be created to validate received data against a predefined data model
 
 [_**Zod**_](https://www.npmjs.com/package/zod) NPM package can be used to validate JSON schemas as well as Object schemas. The best thing about this package is that it has zero external dependencies involved.
 
-**Validator function which validates metadata against schemas generated using Zod NPM package**
+**Validator function which validates metadata against schemas generated using the Zod NPM package**
 
 * Schema Created using Zod NPM package
 
