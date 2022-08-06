@@ -1,5 +1,5 @@
 ---
-description: First Step - Triggering extended sendPayment method
+description: Step One - Trigger SendPayment Method
 ---
 
 # ☎ Trigger SendPayment Method

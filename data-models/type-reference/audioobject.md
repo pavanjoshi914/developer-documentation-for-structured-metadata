@@ -1,8 +1,12 @@
+---
+description: Data Model Type - AudioObject
+---
+
 # 🎙 AudioObject
 
 ## AudioObject
 
-This type is derived from [https://schema.org/AudioObject](https://schema.org/AudioObject), which means that any of this type's properties within schema.org may also be used. Note however the properties on this page must be used in preference if a relevant property is available.
+&#x20;Type AudioObject is a derived type from [https://schema.org/AudioObject](https://schema.org/AudioObject), which means that for this particular data model type, any of the properties also mentioned at schema.org, may also be used. However, to structure metadata supported properties mentioned shall be used only.
 
 ## **Properties**
 

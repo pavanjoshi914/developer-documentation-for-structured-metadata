@@ -1,5 +1,5 @@
 ---
-description: Second Step - Structure and pass metadata
+description: Step Two - Structure and Pass Metadata
 ---
 
 # 🧱 󠁻󠁻Structure and Pass Metadata

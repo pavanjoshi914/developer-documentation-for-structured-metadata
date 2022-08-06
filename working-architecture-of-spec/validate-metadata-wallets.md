@@ -1,20 +1,26 @@
+---
+description: Step Three - Validate Metadata
+---
+
 # 🚦 Validate Metadata
 
-Metadata is user-generated, such user-generated data shall be cross-checked for its correctness. Before performing any further action wallets have to validate metadata.
+Metadata is user-generated. Wallets have to confirm their correctness. Before performing any further action on metadata, wallets have to validate metadata.
 
 ### _What is JSON Schema?_ 🧐
 
-JSON Schema is **a JSON media type for defining the structure of JSON data**. JSON Schema provides a contract for what JSON data is required for a given application and how to interact with it.
+JSON Schema is **a JSON media type for defining the structure of the JSON data**. JSON Schema provides a contract for what JSON data is required and how to interact with it.
 
-Schemas can be created to validate received data against a predefined data model. To do this many validator plugins are available too
+JSON schemas can be created and used to validate received data against a predefined data model. \
+\
+There are many validator NPM packages available to validate metadata and provide the functionality to:
 
 * Generate Schema
 * Compile Schema
 * Validate received data for that particular schema
 
-[_**Zod**_](https://www.npmjs.com/package/zod) NPM package can be used to validate JSON schemas as well as Object schemas. The best thing about this package is that it has zero external dependencies involved.
+[_**Zod**_](https://www.npmjs.com/package/zod) _****_ NPM package _****_ is one of the validators used to validate JSON and object schema. The best thing about this package is that it has zero external dependencies involved.
 
-**Validator function which validates metadata against schemas generated using the Zod NPM package**
+**Validator function to validate metadata against predefined schema generated using the Zod NPM package**
 
 * Schema Created using Zod NPM package
 
@@ -64,10 +70,9 @@ export function MetadataValidator(metadata: object) {
 
   return hasValidType && hasValidImage;
 }
-
 ```
 
-* To Validate Metadata Just call the function by passing metadata.
+* To Validate metadata, call the function by passing metadata.
 
 ```
 const isMetadataValid = MetadataValidator(metadata);
