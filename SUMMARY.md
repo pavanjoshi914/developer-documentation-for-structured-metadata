@@ -8,7 +8,7 @@
 
 ## Working/Architecture Of Spec
 
-* [⚙ Specifications Overview](working-architecture-of-spec/specifications-overview.md)
+* [⚙ Specifications Overview](working-architecture-of-spec/intro.md)
 * [☎ Trigger SendPayment Method](working-architecture-of-spec/make-a-request-to-wallet-for-webln-provider-via-triggering-sendpayment.md)
 * [🧱 󠁻󠁻Structure and Pass Metadata](working-architecture-of-spec/structure-metadata-and-pass-it-to-the-wallet-in-callback.md)
 * [🚦 Validate Metadata](working-architecture-of-spec/validate-metadata-wallets.md)
@@ -24,5 +24,5 @@
 
 ## Applications
 
-* [🔥 Use Cases](applications/use-cases.md)
-* [🛕 Examples](applications/examples.md)
+* [🔥 Use Cases](group-2/usecases.md)
+* [🛕 Examples](group-2/examples.md)

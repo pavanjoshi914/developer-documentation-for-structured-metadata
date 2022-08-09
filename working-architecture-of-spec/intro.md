@@ -2,7 +2,7 @@
 description: Describes architecture of the spec
 ---
 
-# ⚙ Introduction
+# ⚙ Specifications Overview
 
 This page describes the basic workflow of the current spec broken down into the five steps for different wallets trying to implement this spec.
 
