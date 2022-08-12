@@ -12,6 +12,8 @@ For instance, it allows users to perform actions directly out of the user's wall
 
 * Accessing the purchased digital content.
 * Renewing the expiring subscriptions.
+* Advertising products by passing information as metadata.
+* Ask for donations with relevant information as metadata.
 * Recollaterize open trades on trading platforms.
 * Topping up gift card budgets.&#x20;
 * Many more use cases are on their way.
