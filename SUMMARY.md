@@ -21,6 +21,7 @@
 * [📘 Structure Metadata Using Data Models](data-models/structure-metadata-using-data-models.md)
 * [🌀 Type Reference](data-models/type-reference/README.md)
   * [🎙 AudioObject](data-models/type-reference/audioobject.md)
+  * [🖼 ImageObject](data-models/type-reference/imageobject.md)
 
 ## Applications
 
